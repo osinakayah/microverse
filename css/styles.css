@@ -11,7 +11,18 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   font: inherit;
   vertical-align: baseline;
 }
+.row {
+  margin-right: 0px;
+  margin-left: -10px;
+}
 
+.container-fluid {
+  padding-right: 1%;
+  padding-left: 1%;
+  margin-right: auto;
+  margin-left: auto;
+  width: 98%;
+}
 /* HTML5 display-role reset for older browsers */
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -67,6 +78,7 @@ body {
   margin-right: 8px;
   color: #ffffff;
   font-family: Montserrat;
+  cursor:pointer;
 }
 .jumbotron{
     background-image: url("../img/color-mask.png");
@@ -168,7 +180,7 @@ p {
 }
 .Unique-opportunities {
     width: 470px !important;
-    height: 156px !important;
+    //height: 156px !important;
     font-family: Montserrat;
     font-size: 22px !important;
     font-weight: 500 !important;
@@ -213,4 +225,179 @@ p {
     line-height: normal;
     letter-spacing: normal;
     color: #3e4c5b;
+}
+@media (min-width: 1200px) {
+  .col-lg-6 {
+    width: 75%;
+    margin-top: 13px;
+}
+}
+@media screen and (min-width: 768px)
+.container .jumbotron, .container-fluid .jumbotron {
+    padding-right: 25px;
+    padding-left: 25px;
+}
+.donatePart {
+
+}
+.donatePart .dotaneString {
+
+}
+.donatePart .dotaneString span {
+  float: left;
+  margin-top: 18px;
+}
+.donatePart .columnName {
+  border: none;
+  height: auto;
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+.donatePart .columnName p {
+  margin: 0;
+  float: left;
+  width: 100%;
+  font-size: 12px;
+  border: none;  
+}
+.donatePart .columnName p span {
+  float: left;
+  border: none;
+  width: 100%;  
+}
+.donatePart .donate {
+  float: right;
+  padding: 17px;
+  background-color: #7bde7b;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.donatePart .value {
+  float: left;
+  width: 100%;
+  border: none;
+  text-align: center;  
+}
+.latestNews {
+  margin: 0;
+  float: left;
+  width: 100%;
+}
+.latestNews h3 {
+  margin-left: 16.666667%;
+  font-size: 40px;
+  margin-top: 45px;
+}
+.latestNews .contentLatestNews {
+  width: 68%;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+.latestNews .contentLatestNews .articleNews {
+  float: left;
+  width: 46%;
+  padding: 1%;  
+}
+.latestNews .contentLatestNews .articleNews .categories {
+  float: left;
+  width: 100%;
+  color: black;
+  font-size: 10px;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.latestNews .contentLatestNews .articleNews h4 {
+    font-weight: bold;
+    font-size: 35px;
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.latestNews .contentLatestNews .articleNews .publishDate {
+  float: left;
+  width: 100%;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.latestNews .contentLatestNews .articleNews .imagePlace {
+  float: left;
+  width: 100%;
+  overflow: hidden;
+  height: 170px;
+}
+.latestNews .contentLatestNews .articleNews .imagePlace img {
+  
+}
+.latestNews .contentLatestNews .articleNews .pasus {
+  float: left;
+  width: 100%;
+  text-align: justify;
+  font-size: 17px;
+  margin-top: 25px;
+}
+.latestNews .contentLatestNews .articleNews .readMore {
+  float: left;
+  font-size: 15px;
+  color: #26d026;
+  cursor: pointer;
+}
+.moreArticles {
+  float: left;
+  width: 96%;
+  text-align: center;
+}
+.moreArticles p {
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 12px;
+  padding: 10px;
+  background-color: #3eaf3e;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+.subscribeContainer {
+  float: none;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.subscribeContainer p {
+  float: left;
+  width: 100%;
+  font-size: 15px;
+  text-align: center;  
+}
+.subscribeContainer p span {
+  float: left;
+  width: 100%;
+  color: #25c125;  
+}
+.subscribeContainer .email {
+  
+  width: 100%;
+  align-items: center;
+}
+.subscribeContainer .email input {
+  border: none;
+  background: none;
+  padding: 15px;
+  background-color: #f2f6ff;
+}
+.subscribeContainer .email button {
+  border: none;
+  background: none;
+  padding: 15px;
+  background-color: #2cd82c;
+  color: white;
 }
